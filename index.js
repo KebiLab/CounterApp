@@ -9,5 +9,5 @@ function dicrement(){
 }
 
 function save(){
-    document.getElementById("save-el").innerText += count + ', '
+    document.getElementById("save-el").textContent += count + ', '
 }
