@@ -7,3 +7,7 @@ function increment(){
 function dicrement(){
     document.getElementById("count-el").innerText = count-=1
 }
+
+function save(){
+    document.getElementById("save-el").innerText += count + ', '
+}
